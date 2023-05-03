@@ -1,19 +1,18 @@
 ## ДЗ Знакомство с облачной инфраструктурой и облачными сервисами
-
+```
 bastion_IP = 158.160.98.219
 someinternalhost_IP = 10.128.0.25
-
+```
 dns - https://www.testmyhomework.ru/
 
 ssl сертификат установлен
 
 Подключение к someinternalhost одной коммандой
-
+```
 ssh -i appuser@158.160.98.219 appuser@10.128.0.25
-
-
+```
 Для подключения через алиас необходим конфиг
-
+```
 Host bastion
   HostName 158.160.98.219
   User appuser
@@ -22,7 +21,7 @@ Host someinternalhost
   HostName 10.128.0.25
   User appuser
   ProxyJump bastion
-
+```
 Полезные ссылки для потомков:
 https://habr.com/ru/companies/cloud4y/articles/530516/
 https://wiki.gentoo.org/wiki/SSH_jump_host
