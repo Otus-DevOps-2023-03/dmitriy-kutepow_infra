@@ -1,3 +1,6 @@
+## ДЗ Основные сервисы Yandex Cloud
+https://blog.tataranovich.com/2018/08/git-chmod.html
+
 ## ДЗ Знакомство с облачной инфраструктурой и облачными сервисами
 ```
 bastion_IP = 158.160.98.219
